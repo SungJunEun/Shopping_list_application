@@ -1,0 +1,67 @@
+body {
+  background-color: rgba(245, 240, 247, 0.829);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app {
+  display: inline-block;
+  width: 300px;
+  height: 500px;
+  background: rgb(100,165,233);
+  background: linear-gradient(0deg, rgba(100,165,233,1) 0%, rgba(219,147,233,1) 100%);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+header {
+  text-align: center;
+  margin: 10px 0 8px 0;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  height: 20px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+main {
+  background-color: rgb(240, 233, 238);
+  height: 80%;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.item {
+  display: flex;
+  margin: 0 20px 10px 20px;
+  align-items: center;
+}
+.text {
+  flex: 1 1 80%;
+}
+.item i {
+  margin-left: auto;
+}
+input {
+  background-color:rgb(255, 255, 255);
+  margin-top: auto;
+  height: 30px;
+  border: none;
+}
+.menu {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 62px;
+}
+button{
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  font-size: 35px;
+}
