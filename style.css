@@ -63,5 +63,19 @@ button{
   cursor: pointer;
   background-color: transparent;
   border: none;
+}
+.menu button {
   font-size: 35px;
+  transition: 300ms;
+}
+.menu button:hover {
+  transform: scale(1.1);
+}
+.item button {
+  font-size: 15px;
+  transition: 300ms;
+}
+.item button:hover {
+  transform: scale(1.1);
+  color: red;
 }
