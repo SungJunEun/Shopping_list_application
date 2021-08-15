@@ -1,6 +1,5 @@
 # Shopping LIst Application
 ***Handling event with UI***
-
 https://shoppinglistapplication.kkang60298.repl.co/
 
 ---
@@ -29,16 +28,17 @@ with Github.
     - Event is fired when we press `ENTER` or click below button
     - Create new element with input value and add it to HTML 
 
-    ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/60536942/123971293-e01a4e00-d9f4-11eb-99b1-44a800acd9af.gif)
+    ![ezgif com-resize (1)](https://user-images.githubusercontent.com/60536942/129475473-b4f15cfe-0215-4805-8687-61449e6c33f7.gif)
+
+
 
 - ### Removing item
     - `querySelectorAll` to get array of elements of garbage can button 
-    - `remove` method to delete the element (if tag of node is 'UL' we returned `NULL`)
+    - `remove` method to delete the element (if tag of node is 'UL' we delete the first child node)
 
-    ![ezgif com-gif-maker](https://user-images.githubusercontent.com/60536942/123970309-f96eca80-d9f3-11eb-871b-b4bde5873830.gif)
+    ![ezgif com-resize (2)](https://user-images.githubusercontent.com/60536942/129475512-1818cd9e-d19e-46da-bbf4-09f899b3ab61.gif)
 
-## Architecture
-   <img src= "https://user-images.githubusercontent.com/60536942/123974240-72bbec80-d9f7-11eb-9e82-7cf68354f897.jpeg" width = 50% height = 50%>
+
 
 
 
