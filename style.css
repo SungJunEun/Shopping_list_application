@@ -28,6 +28,8 @@ ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  overflow-y: auto;
+  height: 370px;
 }
 main {
   background-color: rgb(240, 233, 238);
@@ -44,7 +46,6 @@ main {
 }
 
 .item i {
-  margin-left: auto;
 }
 input {
   background-color:rgb(255, 255, 255);
@@ -56,10 +57,7 @@ input {
   font-size: 16px;
 }
 .menu {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  height: 62px;
+  text-align: center;
 }
 button{
   outline: none;
